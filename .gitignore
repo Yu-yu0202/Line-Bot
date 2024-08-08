@@ -365,3 +365,13 @@ FodyWeavers.xsd
 # dotenv file
 .env
 */.env
+
+# VisualStudio Project file
+*.sln
+
+# VisualStudio Python Project file
+*.pyproj
+*/*.pyproj
+
+# Local Git folder
+.git/
