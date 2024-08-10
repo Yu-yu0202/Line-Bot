@@ -375,3 +375,6 @@ FodyWeavers.xsd
 
 # Local Git folder
 .git/
+
+# Python venv
+*/venv/*
