@@ -1,5 +1,11 @@
+ast
+os
+sqlite3
+subprocess
+imaplib
+email
 cryptography
 openai>=1.0.0
 python-dotenv
-Flask
+flask
 line-bot-sdk
