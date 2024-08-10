@@ -378,3 +378,6 @@ FodyWeavers.xsd
 
 # Python venv
 */venv/*
+
+# db file
+AI-ChatBot/chat_history.db

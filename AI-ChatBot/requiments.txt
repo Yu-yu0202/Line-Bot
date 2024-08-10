@@ -1,5 +1,5 @@
-Flask
-requests
-openai
+cryptography
+openai>=1.0.0
 python-dotenv
+Flask
 line-bot-sdk
