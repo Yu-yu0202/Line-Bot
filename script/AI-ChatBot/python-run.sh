@@ -13,5 +13,6 @@ python -m venv venv
 source venv/bin/activate
 
 pip install -r requiments.txt
+pip upgrade
 
 python main.py
