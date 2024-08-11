@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~
-rm -rf Line-Bot
+rm -rf Line-Bot\AI-ChatBot
 git clone -b main https://github.com/Yu-yu0202/Line-Bot.git
 cd ~\Line-Bot\AI-ChatBot
 
