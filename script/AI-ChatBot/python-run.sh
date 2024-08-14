@@ -1,18 +1,16 @@
 #!/bin/bash
 
 cd ~
-rm -rf Line-Bot\AI-ChatBot
-git clone -b main https://github.com/Yu-yu0202/Line-Bot.git
-cd ~\Line-Bot\AI-ChatBot
+rm -rf ~/Line-Bot
+git clone -b "AI-ChatBot/develop" https://github.com/Yu-yu0202/Line-Bot.git
+cd ~/Line-Bot/AI-ChatBot
 
-sudo apt update
-sudo apt install python3.12.2
-sudo apt install --only-upgrade python3*
+pyenv local 3.12.2
 
 python -m venv venv
 source venv/bin/activate
 
+pip install --upgrade pip
 pip install -r requiments.txt
-pip upgrade
 
 python main.py
